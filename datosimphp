@@ -1,0 +1,23 @@
+Ejemplo 7-2. Variables de formulario más complejas
+
+<form action="array.php" method="post">
+Name: <input type="text" name="personal[name]"><br>
+Email: <input type="text" name="personal[email]"><br>
+Beer: <br>
+<select multiple name="beer[]">
+<option value="warthog">Warthog
+<option value="guinness">Guinness
+<option value="stuttgarter">Stuttgarter Schwabenbräu
+</select>
+<input type="submit">
+</form>
+
+MAGE SUBMIT variable names
+Cuando se envía un formulario, es posible usar una imagen en vez del botón submit estándar con una etiqueta como:
+<input type=image src="image.gif" name="sub">
+
+FILE//subir un archivo creo
+<FORM ACTION="procesa.php" METHOD="post“
+ENCTYPE="multipart/form-data">
+<INPUT TYPE="file" NAME="fichero">
+</FORM>
