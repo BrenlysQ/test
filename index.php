@@ -11,7 +11,7 @@
 	<p>Dependencia:<input type="tex" name="dependencia"required></p>
 
 	<p>Tipo de Solicitud:
-	<SELECT NAME="Solicitud">
+	<SELECT NAME="Solicitud"required >
 	<OPTION VALUE= "Desarrollo" SELECTED>Desarrollo
 	<OPTION VALUE="Soporte">Soporte
 	<OPTION VALUE="Servicio">Servicio
