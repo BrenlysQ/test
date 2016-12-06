@@ -11,7 +11,7 @@
 	<INPUT TYPE="radio" NAME=bd VALUE="no">no
 	<p>Nombre del sistema: <input type="tex" name="names"required></p> 
 	<p>Tipo: <input type="tex" name="tipo"required></p> 
-	<p>Descripcion:</p><TEXTAREA COLS=“50" ROWS=“4" NAME="descripcion"required>
+	<p>Descripcion:</p><TEXTAREA COLS="50" ROWS="4" NAME="descripcion"required>
 	</TEXTAREA>
 	<p>Nombre del contacto: <input type="tex" name="contacto"required></p> 
 	<p>Numero del contacto: <input type="tex" name="tlf"required></p> 
