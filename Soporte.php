@@ -29,6 +29,7 @@
 	<p>Por UST: <input type="tex" name="ust"required></p>
 	<p>Autorizado Por: <input type="tex" name="autorizado"required></p>  
 	<p>Por PIPSUC: <input type="tex" name="pipsuc"required></p> 
+	<p><input type="submit" value="Finalizar Solicitud"></p>
 
 </body>
 </html>
