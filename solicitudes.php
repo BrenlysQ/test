@@ -11,13 +11,13 @@
 	<p>Dependencia:<input type="tex" name="dependencia"required></p>
 
 	<p>Tipo de Solicitud:
-	<SELECT NAME="Solicitud">
-	<OPTION VALUE= "Desarrollo" SELECTED>Desarrollo
-	<OPTION VALUE="Soporte">Soporte
-	<OPTION VALUE="Servicio">Servicio
-	<OPTION VALUE="Evento">Evento
-	</SELECT>
-</p>
+		<SELECT NAME="Solicitud">
+		<OPTION VALUE= "Desarrollo" SELECTED>Desarrollo
+		<OPTION VALUE="Soporte">Soporte
+		<OPTION VALUE="Servicio">Servicio
+		<OPTION VALUE="Evento">Evento
+		</SELECT>
+	</p>
 <p><input type="submit" value="Procesar"></p>
 </form>
 </BODY>
