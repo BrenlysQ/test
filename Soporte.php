@@ -19,23 +19,47 @@
 		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Laptop">Laptop
 		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Periferico">Periferico
 		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Otro">otro
-	<p>
-	Descripcion:
+		<INPUT type="tex" NAME="otroCual">
+	</p>
+
+	<p>Descripcion:
 		<TEXTAREA COLS="50" ROWS="4" NAME="descripcion"required></TEXTAREA>
-	</p>	
+	</p>
+
+	<p>Diagnostico:
+		<TEXTAREA COLS="50" ROWS="4" NAME="diagnostico"required></TEXTAREA>
+	</p>
+
 	<p>Ubicacion : 
 		<input type="tex" name="ubicacion"required>
 	</p> 
+
 	<p>Serial o inventario: 
 		<input type="tex" name="serial"required>
 	</p>
+
+	<p>Técnico que lo recibe: 
+		<input type="tex" name="Trecibe"required>
+	</p>
 	
-	<p>Fecha de salida:
+	<p>Técnico que lo repara: 
+		<input type="tex" name="Trepara"required>
+	</p>
+	
+	<p>Fecha de entrada:
 		 <input size="25"  maxlength="50" name="inicio" id="inicio" class="fecha" />
 	</p>
 
 	<p>Fecha de retorno: 
 		<input size="25"  maxlength="50" name="final" id="final" class="fecha"/>
+	</p>
+
+	<p>Trabajo realizado:
+		<INPUT TYPE="radio" NAME="trealizado" VALUE="mantenimiento" CHECKED>mantenimiento
+		<INPUT TYPE="radio" NAME="trealizado" VALUE="cambio_pieza">campio de pieza
+		<INPUT TYPE="radio" NAME="tipodeE" VALUE="formateo">formateo
+		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Otro">otro
+		<INPUT type="tex" name="otroCual">
 	</p>
 				
 	<p>Por UST: 
