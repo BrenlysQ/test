@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-01-2017 a las 15:06:30
+-- Tiempo de generación: 24-01-2017 a las 17:28:38
 -- Versión del servidor: 10.1.10-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -48,6 +48,17 @@ CREATE TABLE `desarrollo` (
 
 INSERT INTO `desarrollo` (`Interfaz`, `Bases de datos`, `Nombre del sistema`, `Tipo`, `Descripcion`, `Nombre del contacto`, `Numero del contacto`, `Responsable del Proyecto(Coordinador)`, `Programadores`, `Estatus`, `Ruta de acceso`, `Requerimientos funcionales`, `Requerimientos no funcionales`) VALUES
 ('', '', '', '', '', '', '', '', '', '', '', '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `evento`
+--
+
+CREATE TABLE `evento` (
+  `tipo de evento` varchar(250) NOT NULL,
+  `descripcion` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
