@@ -53,7 +53,7 @@
 	</p>
 
 	<p>Tecnico de apoyo:
-		<input type="tex" name="tecdeapoyo">
+		<input type="tex" name="tecnicodeap">
 	</p>
 
 	<p> Tipo de Participacion:
