@@ -32,8 +32,7 @@
 
  		$requerimentnf = $_POST['fichero2'];
 
-
-		$sql = "INSERT INTO desarrollo VALUES ('$interfaz','$bd','$descripcion','$nombresystem','$tiposystem',$namecontac','$numcontac','$namerespon','$programador','$programador2','$estatus','$ruta_acces','$requerimentf','$requerimentnf')";
+ 		$sql = "INSERT INTO desarrollo VALUES ('$interfaz','$bd','$descripcion','$nombresystem','$tiposystem','$namecontac','$numcontac','$namerespon','$programador','$programador2','$estatus','$ruta_acces','$requerimentf','$requerimentnf')";
 
 		$resultado = mysqli_query($conexion,$sql) or die(mysqli_error($conexion));
 
