@@ -50,7 +50,7 @@
 		 <input size="25"  maxlength="50" name="inicio" id="inicio" class="fecha" />
 	</p>
 
-	<p>Fecha de retorno: 
+	<p>Fecha de salida: 
 		<input size="25"  maxlength="50" name="final" id="final" class="fecha"/>
 	</p>
 

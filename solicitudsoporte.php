@@ -1,10 +1,26 @@
 <?php
 
+	include('conexion.php');
+	$conexion = conexion();
+
 	header("Content-type: text/html; charset=utf8");
 	
 	date_default_timezone_set('America/Caracas');
 	
-	
+	$tipodee = $_POST['TipodeE'];
+
+	$descripcion = $_POST['descripcion'];	
+
+	$diagnostico = $_POST['diagnostico'];
+
+	$ubicacion = $_POST['ubicacion'];	
+
+	$serial = $_POST['serial'];
+
+	$Tecnicorecibe = $_POST['Trecibe'];	
+
+	$Tecnicorepara = $_POST['Trepara'];
+
 	$inicio = $_POST['inicio'];
 	$final = $_POST['final'];
 
@@ -37,16 +53,25 @@
 			{
 				echo"Ingrese un mes correcto.";
 				
-			}else
-			{
-
-				echo "<script type='text/javascript'>
-				alert('Solicitud Realizada exitosamente.');
-		</script>";
 			}
-
 		}
 	}
 
-		
+	$trabajorealizado = $_POST['trealizado'];
+
+	$UST = $_POST['ust'];
+
+	$autorizado = $_POST['autorizado'];	
+
+	$PIPSUC = $_POST['pipsuc'];
+
+	$sql = "INSERT INTO soporte VALUES ('$tipodee','$descripcion','$diagnostico','$ubicacion','$serial','$Tecnicorecibe','$Tecnicorepara','$inicio','$final','$trabajorealizado','$UST','$autorizado','$PIPSUC')";
+
+	$resultado = mysqli_query($conexion,$sql) or die(mysqli_error($conexion));
+
+	echo "<script type='text/javascript'>
+			alert('Solicitud Realizada exitosamente.');
+			</script>";
+
+		mysqli_close($conexion);	
 ?>
