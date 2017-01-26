@@ -21,7 +21,7 @@
 		 	<input type="tex" name="names"required>
 		</p> 
 
-		<p>Tipo: 
+		<p>Tipo (uso): 
 			<input type="tex" name="tipo"required>
 		</p> 
 
@@ -65,7 +65,7 @@
 
 		<p>Requerimientos no funcionales:
 			<ENCTYPE="multipart/form-data">
-			<INPUT TYPE="file" NAME="fichero"required>
+			<INPUT TYPE="file" NAME="fichero2"required>
 		</p>
 
 		<p><input type="submit" value="Finalizar Solicitud"></p>

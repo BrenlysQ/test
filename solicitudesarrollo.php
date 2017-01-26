@@ -1,5 +1,5 @@
 <?php 
-		include('../conexion.php');
+		include('conexion.php');
 		$conexion = conexion();
 
 		header("Content-type: text/html; charset=utf8");
@@ -8,13 +8,9 @@
 
 		$bd = $_POST['bd'];
 
-		$namesystem = $_POST['names'];
+ 		$nombresystem = $_POST['names'];
 
-		$inicio = $_POST['inicio'];
-
- 		$final = $_POST['final'];
-
- 		$tipoP = $_POST['tipo'];
+ 		$tiposystem = $_POST['tipo'];
 
  		$descripcion = $_POST['descripcion'];
 
@@ -30,11 +26,16 @@
 
  		$estatus = $_POST['estatus'];
 
- 		$tipodep = $_POST['tipodep'];
+ 		$ruta_acces = $_POST['ruta'];
 
-		$sql = "INSERT INTO prestam VALUES ('$tipodeE','$descripcion','$audiovisual''$inicio','$final','$facilitador1','$facilitador2','$tipodep')";
+		$requerimentf = $_POST['fichero'];
 
-		$resultado = mysqli_query($conexion,$sql) or die(mysqli_error());
+ 		$requerimentnf = $_POST['fichero2'];
+
+
+		$sql = "INSERT INTO desarrollo VALUES ('$interfaz','$bd','$descripcion','$nombresystem','$tiposystem',$namecontac','$numcontac','$namerespon','$programador','$programador2','$estatus','$ruta_acces','$requerimentf','$requerimentnf')";
+
+		$resultado = mysqli_query($conexion,$sql) or die(mysqli_error($conexion));
 
 	echo "<script type='text/javascript'>
 				alert('Solicitud Realizada exitosamente.');

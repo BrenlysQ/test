@@ -25,9 +25,10 @@
 
  		$tipodep = $_POST['tipodep'];
 
+
 		$sql = "INSERT INTO evento VALUES ('$tipodeE','$descripcion', $lugare,'$tipoRecurso','$inicio','$final','$facilitador1','$facilitador2','$tecnicodeap','$tipodep')";
 
-		$resultado = mysqli_query($conexion,$sql) or die(mysqli_error());
+		$resultado = mysqli_query($conexion,$sql) or die(mysqli_error($conexion));
 
 	echo "<script type='text/javascript'>
 				alert('Solicitud Realizada exitosamente.');
