@@ -7,7 +7,7 @@
 	
 	date_default_timezone_set('America/Caracas');
 	
-	$tipodee = $_POST['TipodeE'];
+	$tipodee = $_POST['tipodee'];
 
 	$descripcion = $_POST['descripcion'];	
 

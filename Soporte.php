@@ -15,11 +15,11 @@
 	</head>
 <body>
 	<p> Tipo de equipo:
-		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Desktop" CHECKED>Desktop
-		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Laptop">Laptop
-		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Periferico">Periferico
-		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Otro">otro
-		<INPUT type="tex" NAME="otroCual">
+		<input TYPE="radio" NAME="tipodee" VALUE="Desktop" CHECKED>Desktop
+		<input TYPE="radio" NAME="tipodee" VALUE="Laptop">Laptop
+		<input TYPE="radio" NAME="tipodee" VALUE="Periferico">Periferico
+		<input TYPE="radio" NAME="tipodee" VALUE="Otro">otro
+		<input TYPE="tex" NAME="otroCual">
 	</p>
 
 	<p>Descripcion:
