@@ -57,8 +57,8 @@
 	<p>Trabajo realizado:
 		<INPUT TYPE="radio" NAME="trealizado" VALUE="mantenimiento" CHECKED>mantenimiento
 		<INPUT TYPE="radio" NAME="trealizado" VALUE="cambio_pieza">campio de pieza
-		<INPUT TYPE="radio" NAME="tipodeE" VALUE="formateo">formateo
-		<INPUT TYPE="radio" NAME="tipodeE" VALUE="Otro">otro
+		<INPUT TYPE="radio" NAME="trealizado" VALUE="formateo">formateo
+		<INPUT TYPE="radio" NAME="trealizado" VALUE="Otro">otro
 		<INPUT type="tex" name="otroCual">
 	</p>
 				
