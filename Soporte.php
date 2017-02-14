@@ -10,9 +10,8 @@
 		<script type="text/javascript" src="jquery-ui.min.js"></script>
 		<script type="text/javascript" src="espanol.js"></script>
 		<script type="text/javascript" src="busquedas.js"></script>
-		
-
 	</head>
+	
 <body>
 	<p> Tipo de equipo:
 		<input TYPE="radio" NAME="tipodee" VALUE="Desktop" CHECKED>Desktop
@@ -26,13 +25,12 @@
 		<TEXTAREA COLS="50" ROWS="4" NAME="descripcion"required></TEXTAREA>
 	</p>
 
-	<p>Diagnostico:
+	   Diagnostico:
 		<TEXTAREA COLS="50" ROWS="4" NAME="diagnostico"required></TEXTAREA>
-	</p>
-
-	<p>Ubicacion : 
+	
+	   Ubicacion : 
 		<input type="tex" name="ubicacion"required>
-	</p> 
+	 
 
 	<p>Serial o inventario: 
 		<input type="tex" name="serial"required>
@@ -40,17 +38,16 @@
 
 	<p>Técnico que lo recibe: 
 		<input type="tex" name="Trecibe"required>
-	</p>
 	
-	<p>Técnico que lo repara: 
+	
+	  Técnico que lo repara: 
 		<input type="tex" name="Trepara"required>
 	</p>
 	
 	<p>Fecha de entrada:
 		 <input size="25"  maxlength="50" name="inicio" id="inicio" class="fecha" />
-	</p>
-
-	<p>Fecha de salida: 
+	
+	     Fecha de salida: 
 		<input size="25"  maxlength="50" name="final" id="final" class="fecha"/>
 	</p>
 
@@ -64,13 +61,11 @@
 				
 	<p>Por UST: 
 		<input type="tex" name="ust"required>
-	</p>
-
-	<p>Autorizado Por: 
+	
+		Autorizado Por: 
 		<input type="tex" name="autorizado"required>
-	</p>  
-
-	<p>Por PIPSUC: 
+	
+	   Por PIPSUC: 
 		<input type="tex" name="pipsuc"required>
 	</p> 
 

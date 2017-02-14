@@ -41,20 +41,17 @@
 	
 	<p>Fecha de Inicio:
 		 <input size="25"  maxlength="50" name="inicio" id="inicio" class="fecha" />
-	</p>
-
-	<p>Fecha de Culminacion: 
+	
+		Fecha de Culminacion: 
 		<input size="25"  maxlength="50" name="final" id="final" class="fecha"/>
 	</p>
 				
 	<p>Facilitador (es):
 		<input type="tex" name="facilitador1"required>
 		<input type="text" name="facilitador2" required>		
-	</p>
 
-	<p>Tecnico de apoyo:
+		Tecnico de apoyo:
 		<input type="tex" name="tecnicodeap">
-	</p>
 
 	<p> Tipo de Participacion:
 		<input TYPE="radio" NAME="tipodep" VALUE="presencial" CHECKED>presencial

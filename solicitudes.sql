@@ -1,19 +1,9 @@
 --
 -- Base de datos: `solicitudes`
 --
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `solicitante`
---
-
-CREATE TABLE `solicitante` (
-  `Nombre` varchar(100) NOT NULL,
-  `Dependencia` varchar(100) NOT NULL,
-  `Tipo de Solicitud` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
+
 --
 -- Estructura de tabla para la tabla `desarrollo`
 --
@@ -35,13 +25,6 @@ CREATE TABLE `desarrollo` (
   `Requerimientos no funcionales` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Volcado de datos para la tabla `desarrollo`
---
-
-INSERT INTO `desarrollo` (`Interfaz`, `Bases de datos`, `Nombre del sistema`, `Tipo`, `Descripcion`, `Nombre del contacto`, `Numero del contacto`, `Responsable del Proyecto(Coordinador)`, `Programador1`, `Programador2`, `Estatus`, `Ruta de acceso`, `Requerimientos funcionales`, `Requerimientos no funcionales`) VALUES
-('', '', '', '', '', '', '', '', '', '', '', '', '', '');
-
 -- --------------------------------------------------------
 
 --
@@ -61,16 +44,22 @@ CREATE TABLE `evento` (
   `tipo de participacion` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+-- --------------------------------------------------------
+
 --
--- Volcado de datos para la tabla `evento`
+-- Estructura de tabla para la tabla `solicitante`
 --
 
-INSERT INTO `evento` (`tipo de evento`, `descripcion`, `Lugar`, `Recurso`, `fecha inicio`, `fecha culminaciòn`, `facilitador1`, `facilitador2`, `Tecnico de apoyo`, `tipo de participacion`) VALUES
-('Foro', 'dsf', 'dsfsd', 'Camara', '03/01/2017', '11/01/2017', 'dsfsd', 'sdfs', 'sdfds', 'presencial');
+CREATE TABLE `solicitante` (
+  `Nombre` varchar(100) NOT NULL,
+  `Dependencia` varchar(100) NOT NULL,
+  `Tipo de Solicitud` varchar(100) NOT NULL,
+  `Fecha de Solicitud` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
-
+--
 -- Estructura de tabla para la tabla `soporte`
 --
 
@@ -89,17 +78,6 @@ CREATE TABLE `soporte` (
   `Autorizado Por` varchar(250) NOT NULL,
   `Por PIPSUC` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Volcado de datos para la tabla `soporte`
---
-
-INSERT INTO `soporte` (`Tipo de equipo`, `Descripcion`, `diagnostico`, `Ubicacion`, `Serial o inventario`, `Tecnico recibe`, `Tecnico repara`, `Fecha de entrada`, `Fecha de salida`, `Trabajo realizado`, `Por UST`, `Autorizado Por`, `Por PIPSUC`) VALUES
-('', 'sdewed', 'erwr', 'ewrew', 'erer', 'erewr', 'erewr', '03/01/2017', '11/01/2017', 'mantenimiento', 'asxa', 'sds', 'd'),
-('', 'sdewed', 'erwr', 'ewrew', 'erer', 'erewr', 'erewr', '03/01/2017', '11/01/2017', 'mantenimiento', 'asxa', 'sds', 'd'),
-('', 'gfh', 'dfgfdg', 'fgg', 'fgdf', 'fdgfd', 'dfg', '02/01/2017', '03/01/2017', 'mantenimiento', 'gfh', 'gfh', 'gfh');
-
--- --------------------------------------------------------
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

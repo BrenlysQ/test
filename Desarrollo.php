@@ -8,16 +8,16 @@
 	</head>
 
 	<body>
-		<p>Interfaz:
+		Interfaz:
 			<INPUT TYPE="radio" NAME=interfaz VALUE="si" CHECKED>si
 			<INPUT TYPE="radio" NAME=interfaz VALUE="no">no
-		</P>
 
-		<p>Manejo de Bases de datos:
+
+		Manejo de Bases de datos:
 			<input type="radio" NAME=bd VALUE="si" CHECKED>si
 			<input type="radio" NAME=bd VALUE="no">no
 
-		<p>Nombre del sistema:
+		Nombre del sistema:
 		 	<input type="tex" name="names"required>
 		</p> 
 
@@ -32,9 +32,8 @@
 
 		<p>Nombre del contacto: 
 			<input type="tex" name="contacto"required>
-		</p> 
-
-		<p>Numero del contacto:
+ 
+		   Numero del contacto:
 			 <input type="tex" name="tlf"required>
 		</p> 
 
@@ -50,8 +49,10 @@
 		</p>
 
 		<p>Estatus:
-			<INPUT TYPE="radio" NAME=estatus VALUE="En proceso" CHECKED>proceso
-			<INPUT TYPE="radio" NAME=estatus VALUE="Finalizado">finalizado
+			<INPUT TYPE="radio" NAME=estatus VALUE="recibido" CHECKED>recibido
+			<INPUT TYPE="radio" NAME=estatus VALUE="en proceso">en proceso
+			<INPUT TYPE="radio" NAME=estatus VALUE="finalizado">finalizado
+			<INPUT TYPE="radio" NAME=estatus VALUE="conforme">conforme
 		</p>
 
 		<p>Ruta de acceso: 
